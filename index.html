@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelHub - Consoles e Acessórios</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/img/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo">PixelHub</div>
+        <nav>
+            <ul>
+                <li><a href="#consoles">Consoles</a></li>
+                <li><a href="#acessorios">Acessórios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Consoles -->
+        <section id="consoles">
+            <h2>Consoles</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="assets/img/PS5_FAT_550x550.jpg" alt="PlayStation 5 Fat" 
+                    onclick="openModal('assets/img/PS5_FAT_550x550.jpg')">
+                    <h3>Sony Playstation 5 825GB Standard </h3>
+                    <p>R$ 3.550,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/XBOX_SERIES_X_550x550.png" alt="Xbox Series X"
+                    onclick="openModal('assets/img/XBOX_SERIES_X_550x550.png')">
+                    <h3>Microsoft Xbox Series X 1TB 8K</h3>
+                    <p>R$ 4.299,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/PS5_SLIM_550x550.jpg" alt="Playstation 5 Slim"
+                    onclick="openModal('assets/img/PS5_SLIM_550x550.jpg')">
+                    <h3>PSony Playstation 5 1TB Slim Standard</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/XBOX_SERIES_S.jpg" alt="Xbox series s"
+                    onclick="openModal('assets/img/XBOX_SERIES_S.jpg')">
+                    <h3>Microsoft Xbox Series S 512GB</h3>
+                    <p>R$ 2.899,00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Acessórios -->
+        <section id="acessorios">
+            <h2>Acessórios</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="assets/img/Controle_Dualsense_Edge_550x550.png" alt="Controle PS5"
+                    onclick="openModal('assets/img/Controle_Dualsense_Edge_550x550.png')">
+                    <h3>Controle Sony DualSense Edge Playstation 5</h3>
+                    <p>R$ 1.099,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/Controle_Xbox_Elite.jpg" alt="Controle Xbox Series X"
+                    onclick="openModal('assets/img/Controle_Xbox_Elite.jpg')">
+                    <h3>Controle Sem Fio Xbox One Elite Series 2 - Preto</h3>
+                    <p>R$ 1.149,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/Dual_Sense_550x550.jpg" alt="DualSense"
+                    onclick="openModal('assets/img/Dual_Sense_550x550.jpg')">
+                    <h3>Controle Sony DualSense Playstation 5</h3>
+                    <p>R$ 389,00</p>
+                </div>
+                <div class="product-item">
+                    <img src="assets/img/Controle_Xbox_Series_XS_550x550.jpg" alt="Controle Elite"
+                    onclick="openModal('assets/img/Controle_Xbox_Series_XS_550x550.jpg')">
+                    <h3>Controle Microsoft Xbox Series X/S</h3>
+                    <p>R$ 399,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="myModal">
+        <span class="close" onclick="closeModal()" >&times;</span>
+        <img class="modal-content" id="modalImage">
+      </div>
+
+      <footer>
+        <p>
+            &copy; 2024 PixelHub - Todos os direitos reservados.
+        </p>
+    </footer>
+    
+
+    <script src="assets/js/script.js"></script>
+    <a href="https://www.instagram.com/pixelhubshopp/" target="_blank" class="floating-instagram">
+        <img src="assets/img/icons-instagram.png" alt="Instagram">
+    </a>
+    
+</body>
+</html>
